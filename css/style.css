@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+/* .row{
+    margin-bottom: 10px;
+} */
+p{
+    margin-bottom: 0;
+}
+.title h1{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.management_header{
+    padding: 20px 20px 0 20px;
+}
+.management_header .purchases h1{
+    font-size: 20px;
+}
+.management_create_button{
+    display: flex;
+    justify-content: flex-end;
+}
+.management_header .per_page{
+    display: flex;
+    align-items: center;
+}
+.management_header .per_page p{
+    margin-left: 5px;
+}
+.management_search_button{
+    display: flex;
+    justify-content: flex-end;
+}
+.management_search_button input{
+    padding: 5px 10px;
+}
+.management_table{
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.management_table .table th{
+    font-size: 14px;
+}
+
+.supplier_table_form{
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #efeeee;
+}
+
+.invoice_section{
+    background: #eae8e8;
+    padding: 50px 100px;
+    box-sizing: border-box;
+}
+.invoice_section .invoice_part{
+    background: #fff;
+    padding: 100px;
+    box-sizing: border-box;
+}
+.invoice_section .invoice_part .top_part {
+    display: flex;
+}
+.invoice_section .invoice_part .top_part h1{
+    font-size: 30px;
+    color: rgb(35, 174, 109);
+    display: inline;
+}
+.invoice_section .invoice_part .top_part .top_left, .top_right{
+    width: 50%;
+}
+.invoice_section .invoice_part .top_part .top_left h1{
+    padding: 10px 30px;
+    border: 2px solid rgb(35, 174, 109);
+}
+.invoice_section .invoice_part .top_part .top_right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.invoice_section .invoice_part .date_number{
+    border-bottom: 2px solid rgb(35, 174, 109);
+    margin: 10px 0px;
+    padding: 0 30px;
+}
+.invoice_section .invoice_part .date_number span{
+    font-weight: 500;
+}
+.invoice_section .invoice_part .date_number .invoice_number{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.invoice_section .invoice_part .company_name,.to_comments{
+    font-size: 14px;
+}
+
+.invoice_section .invoice_part .company_name{
+    background: #eae8e8;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.invoice_section .invoice_part .to_comments{
+    padding: 5px 10px 30px 10px;
+    box-sizing: border-box;
+    border-bottom:  2px solid rgb(35, 174, 109);
+}
+.invoice_section .invoice_part .to_comments .comments_section{
+    margin-top: 20px;
+}
+.invoice_section .invoice_part .invoice_table{
+    margin-top: 20px;
+}

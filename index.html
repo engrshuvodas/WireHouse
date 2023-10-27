@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Invoice</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+  </head>
+  <body>
+    
+    <section class="invoice_section">
+        <div class="invoice_part">
+
+            <div class="top_part">
+                <div class="top_left">
+                    <h1>INVOICE</h1>
+                </div>
+                <div class="top_right">
+                    <h1>LOGO</h1>
+                </div>
+            </div>
+
+            <div class="date_number">
+              <div class="row">
+                <div class="col-6 invoice_date">
+                  <span>12/01/2020</span>
+                </div>
+                <div class="col-6 invoice_number">
+                  <p>Invoice Number:</p><span>567789</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="company_name">
+              <div class="title">
+                <h1>Your Company Name</h1>
+              </div>
+              <p>Address</p>
+              <p>VAT Number</p>
+              <p>City/State,Postal Code</p>
+              <p>Phone/Mobile,Email</p>
+            </div>
+
+            <div class="to_comments">
+              <div class="to_section">
+                <div class="title">
+                  <h1>To:</h1>
+                </div>
+                <p>Company Name</p>
+                <p>Address</p>
+                <p>VAT Number</p>
+                <p>City/State,Postal Code</p>
+                <p>Phone/Mobile,Email</p>
+              </div>
+              <div class="comments_section">
+                <div class="title">
+                  <h1>Comments:</h1>
+                </div>
+                <p>Place any Comments Here</p>
+              </div>
+            </div>
+
+            <div class="invoice_table">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Description</th>
+                    <th scope="col">Qty</th>
+                    <th scope="col">Unit</th>
+                    <th scope="col">Unit Price</th>
+                    <th scope="col">Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td scope="row">SKU45667 USB STICK 256GB</td>
+                    <td>55</td>
+                    <td>PCS</td>
+                    <td>$25.00</td>
+                    <td>$1,375.00</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">SKU00912 NAS 6-BAY</td>
+                    <td>30</td>
+                    <td>BOX</td>
+                    <td>$200.00</td>
+                    <td>$6,000.00</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+        </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

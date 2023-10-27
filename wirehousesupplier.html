@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Wire House Supplier</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    
+    <div class="row management_header">
+      <div class="col-6 purchases">
+        <h1>All Purchase</h1>
+      </div>
+      <div class="col-6 management_create_button">
+        <button type="button" class="btn btn-primary">Create</button>
+      </div>
+    </div>
+    <div class="row management_header">
+      <div class="col-6 per_page">
+        <select name="" id="">
+          <option value="1">10</option>
+          <option value="2">9</option>
+          <option value="3">8</option>
+          <option value="4">7</option>
+          <option value="5">6</option>
+        </select>
+        <p>entries per page</p>
+      </div>
+      <div class="col-6 management_search_button">
+        <input type="search" placeholder="Search...">
+      </div>
+    </div>
+
+    <section class="supplier_table_form">
+      <div class="row">
+        <div class="col-12">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Supplier:</label>
+            <select name=""class="form-select mb-3" aria-label="Default select example">
+              <option selected hidden>Choose</option>
+              <option value="1">1</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="label_name"> 
+            <label for="text">Product *</label>
+          </div>
+          <select class="form-select mb-3" aria-label="Default select example">
+            <option selected hidden>Choose</option>
+            <option value="1">1</option>
+          </select>
+        </div>
+        <div class="col-4">
+          <div class="label_name"> 
+            <label for="text">Buy_price *</label>
+          </div>
+          <input type="number"  class="form-control mb-3" id="exampleFormControlInput1">
+        </div>
+        <div class="col-4">
+          <div class="label_name"> 
+            <label for="text">Quentity *</label>
+          </div>
+          <input type="text"  class="form-control mb-3" id="exampleFormControlInput1">
+        </div>
+        <div class="col-12 text-center">
+          <button class="btn btn-primary">Next</button>
+        </div>
+      </div>
+      
+    </section>
+
+    <section class="supplier_table">
+      <table class="table table-striped-columns">
+        
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">SUPPLIER_NAME</th>
+            <th scope="col">VAT NUM.</th>
+            <th scope="col">ADDRESS</th>
+            <th scope="col">CITY/AREA</th>
+            <th scope="col">STATE</th>
+            <th scope="col">ZIP_CODE</th>
+            <th scope="col">COUNTRY</th>
+            <th scope="col">CURRENCY</th>
+            <th scope="col">CREDIT</th>
+            <th scope="col">BANK ACCOUNT/IBAN</th>
+            <th scope="col">NAME_OF_BANK</th>
+            <th scope="col">PHONE</th>
+            <th scope="col">FAX</th>
+            <th scope="col">EMAIL</th>
+            <th scope="col">STATUS</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>WEB SUPPLIER US</td>
+            <td>P55425561</td>
+            <td>1212 Duff
+                Avenue
+            </td>
+            <td>Brattleboro</td>
+            <td>VT</td>
+            <td>05301</td>
+            <td>United
+                states
+            </td>
+            <td>US DOLLAR</td>
+            <td>30 DAYS</td>
+            <td>US78SVBKUS6S1234558888</td>
+            <td>TD BANK</td>
+            <td>202-555-0383</td>
+            <td>202-555-0383</td>
+            <td>dummymail1@
+                mail.com</td>
+            <td>ACTIVE</td>
+          </tr>
+
+          <tr>
+            <th scope="row">2</th>
+            <td>secure data inc</td>
+            <td>P26452384</td>
+            <td>3098 Sycamore
+                Lake Road
+            </td>
+            <td>Green Bay</td>
+            <td>WI</td>
+            <td>54301</td>
+            <td>United
+                states
+            </td>
+            <td>US DOLLAR</td>
+            <td>NO</td>
+            <td>US11SVBKUS6S1234559999</td>
+            <td>M.STANLEY</td>
+            <td>202-555-0524</td>
+            <td>202-555-0524</td>
+            <td>dummymail1@
+                mail.com</td>
+            <td>ACTIVE</td>
+          </tr>
+
+          <tr>
+            <th scope="row">4</th>
+            <td>GEMLINK</td>
+            <td>P87878440</td>
+            <td>2083 Griffin
+                Street
+            </td>
+            <td>Arizona</td>
+            <td>AZ</td>
+            <td>85012</td>
+            <td>United
+                states
+            </td>
+            <td>US DOLLAR</td>
+            <td>15 DAYS</td>
+            <td>US80SVBKUS6S3300951111</td>
+            <td>BANK OF
+                  AMERICA</td>
+            <td>202-555-0248</td>
+            <td>202-555-0248</td>
+            <td>dummymail1@
+                mail.com</td>
+            <td>ACTIVE</td>
+          </tr>
+
+          <tr>
+            <th scope="row">3</th>
+            <td>DIGITAL PLUS</td>
+            <td>P38452444</td>
+            <td>2977 Coulter
+                Lane
+            </td>
+            <td>Virginia</td>
+            <td>VA</td>
+            <td>19034</td>
+            <td>United
+                states
+            </td>
+            <td>US DOLLAR</td>
+            <td>60 DAYS</td>
+            <td>US34SVBKUS6S3300950000</td>
+            <td>CITIGROUP</td>
+            <td>202-555-0444</td>
+            <td>202-555-0444</td>
+            <td>dummymail1@
+                mail.com</td>
+            <td>ACTIVE</td>
+          </tr>
+
+        </tbody>
+
+      </table>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
+
+
+
